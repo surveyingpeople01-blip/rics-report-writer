@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    --rics-purple: #0000A0;
+    --rics-grey: #818385;
+    --rics-burgundy: #8A4513;
+    --rics-orange: #E87722;
+    @apply text-rics-grey bg-gray-50;
+  }
+}
